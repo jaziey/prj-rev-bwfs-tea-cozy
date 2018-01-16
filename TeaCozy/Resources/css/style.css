@@ -1,0 +1,169 @@
+body{
+	margin:0;
+	font-family: Helvetica;
+	background-color: black;
+	opacity: 0.9;
+	color:Seashell;
+
+
+
+}
+
+
+
+nav span {
+	display: inline-block;
+	padding: 20px 10px;
+
+}
+
+header{
+ display: flex;
+ align-items: center;
+ position: fixed;
+ top:0;
+ width: 100%;
+ height: 69px;
+ border-bottom: 1px solid seashell;
+ background-color: black; 
+
+}
+.logo
+{
+	display: flex;
+	flex: 1;
+/*	margin-top:0; */
+	margin-left: 10px;
+}
+header nav{
+	padding-right: 40px;
+}
+
+.Image-content{
+	/*display: flex;
+	margin-top:69px; */
+
+}
+
+.Image-content{
+	background-image: url(..//images/img-mission-background.jpg);
+/*	position: absolute; */
+	height: 700px;
+	width:1200px;
+	margin-top:70px;
+/*	left:0;
+	right: 0;   */
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.OurMission{
+	position: absolute;
+    background-color: black;
+    text-align: center;
+    width: 1200px;
+     margin-top: 260px;  
+
+}  
+.talltalk{
+	font-size: 22px;
+}
+.TeaOfTheMonth{
+  width: 1000px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:40px;
+}
+  figure img,figcaption{
+	width: 300px;
+	height: 200px;
+ /*	margin-left: 62px;  */
+	text-align: center;
+    
+}
+
+ .TheTeaCozy{
+ 	padding: 0 0;
+ 	 display: flex;
+	justify-content:center;
+	margin-bottom: -200px;
+	/* border-style:bold white 1px; */
+
+}  
+.flex-cap, .flex-cap1{
+	font-family: Helvetica;
+	font-size:22px;
+	font-weight: bold;
+}
+/*	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+ } */
+
+  
+
+.TheTeaCozy1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	border-style: bold white 1px;
+
+}
+.location-image{
+	background-image: url(..//images/img-locations-background.jpg);
+	height:580px;
+	width: 1200px;
+	margin-top: -80px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.marg-loc{
+ padding-top: 20px;
+}
+
+.blackbox-container{
+	position: absolute;
+	width: 1200px;
+	height: 320px;
+	right: auto;
+	 left: auto;
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+
+}
+.gutter {
+ 
+  margin: -10px 0px 0px -10px;
+
+}
+
+.gutter> .blackbox{
+	padding: 10px 0 0 10px;
+
+}
+
+.blackbox{
+	/* padding: 20px;  */
+	line-height: 2.8;
+  	width:300px;
+ 	height:300px;   
+
+	box-sizing: border-box;
+  /*  flex-basis: 25%; */
+	background-color: black;
+	text-align: center;
+	 
+}
+.center{
+	text-align: center;
+}
+ 
+  .number{
+	padding-bottom: 20px;
+} 
+ .copy{
+ 	margin-left: 20px;
+ }
